@@ -1,7 +1,7 @@
 import os
 import random
 
-file = open("bingoSquaresHere.txt", "r")
+file = open("bingoSquaresHere.txt", "r", encoding="UTF-8")
 haslastring = file.read()
 haslalist = haslastring.split("\n")
 haslalist.pop(-1)
